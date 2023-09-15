@@ -28,9 +28,9 @@ public class ListAccountActivity extends AppCompatActivity {
     }
 
     private void loadFakeData(){
-        Account myAccount1 = new Account("Bancolombia", "Cuenta de ahorros", 10003402.0);
-        Account myAccount2 = new Account("Davivienda", "Cuenta debito", 10003402.0);
-        Account myAccount3 = new Account("Efectivo", "Tarjeta de crédito", 1058402.0);
+        Account myAccount1 = new Account("Bancolombia", "Cuenta de ahorros", 10003402.0,"https://www.wradio.com.co/resizer/MdKkwbwW3966bveYe-g1UYpr144=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/FAKX7DE4Q5B73NRKRFSZD72R6Y.jpg");
+        Account myAccount2 = new Account("Davivienda", "Cuenta debito", 10003402.0,"https://i.pinimg.com/originals/92/61/91/926191354beba38c7c6a82ee21597e50.png");
+        Account myAccount3 = new Account("Efectivo", "Tarjeta de crédito", 1058402.0,"https://previews.123rf.com/images/photoplotnikov/photoplotnikov1602/photoplotnikov160200038/53961327-mano-que-sostiene-el-dinero-en-billetes-en-efectivo-en-la-mano-tipo-de-pago-ilustraci%C3%B3n-del.jpg");
         listAccountRV.add(myAccount1);
         listAccountRV.add(myAccount2);
         listAccountRV.add(myAccount3);
