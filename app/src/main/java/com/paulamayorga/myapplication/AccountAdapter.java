@@ -52,7 +52,7 @@ public class AccountAdapter extends RecyclerView.Adapter<AccountAdapter.ViewHold
             tvNameAccount = itemView.findViewById(R.id.tv_item_name_account);
             tvTypeAccount = itemView.findViewById(R.id.tv_item_type_account);
             tvCurrentValue = itemView.findViewById(R.id.tv_item_balance_account);
-            ivPrincipal = itemView.findViewById(R.id.iv_item_account);
+            ivPrincipal = itemView.findViewById(R.id.iv_category_image);
         }
 
         public void loadInfo(Account myAccount) {
