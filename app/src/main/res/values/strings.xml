@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Wallet App</string>
     <string name="text_new_account">Nueva Cuenta</string>
+    <string name="nombre_de_cuenta">Nombre de cuenta</string>
+    <string name="saldo">Saldo</string>
+    <string name="_10_234_232_00">10.234.232,00</string>
+    <string name="pesos">$</string>
+    <string name="tipo_de_cuenta">Tipo de cuenta</string>
+    <string name="cuenta">Cuenta de ahorros</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="nombre">Nombre:</string>
+    <string name="restaurante">Restaurante</string>
+    <string name="color">Color:</string>
 </resources>

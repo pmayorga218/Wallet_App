@@ -50,7 +50,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Nombre:"
+                            android:text="@string/nombre"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:text="Restaurante"
+                            android:text="@string/restaurante"
                             android:textSize="16sp" />
 
                         <ImageButton
@@ -78,7 +78,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Color:"
+                            android:text="@string/color"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 

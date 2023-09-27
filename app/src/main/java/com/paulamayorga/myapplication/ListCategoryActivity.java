@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class ListCategoryActivity extends AppCompatActivity {
     private ArrayList<Category> listCategory = new ArrayList<>();
-    private RecyclerView myReclycleAccount;
+    private RecyclerView myReclycleAccount1;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -20,10 +20,10 @@ public class ListCategoryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list_category);
         loadFakeData();
 
-        myReclycleAccount = findViewById(R.id.rv_list_category);
-        CategoryAdapter myAdaptador = new CategoryAdapter(listCategory);
-        myReclycleAccount.setAdapter(myAdaptador);
-        myReclycleAccount.setLayoutManager(new LinearLayoutManager(ListCategoryActivity.this));
+        myReclycleAccount1 = findViewById(R.id.rv_list_category);
+        CategoryAdapter myAdapter = new CategoryAdapter(listCategory);
+        myReclycleAccount1.setAdapter(myAdapter);
+        myReclycleAccount1.setLayoutManager(new LinearLayoutManager(ListCategoryActivity.this));
 
 
     }

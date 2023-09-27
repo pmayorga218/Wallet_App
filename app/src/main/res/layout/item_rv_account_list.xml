@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Nombre de cuenta"
+                android:text="@string/nombre_de_cuenta"
                 android:textAlignment="center"
                 android:textColor="#9C2CAF"
                 android:textSize="18sp"
@@ -47,7 +47,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Saldo"
+                android:text="@string/saldo"
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -60,7 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="$"
+                    android:text="@string/pesos"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -70,7 +70,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="10.234.232,00"
+                    android:text="@string/_10_234_232_00"
                     android:textAlignment="textEnd"
                     android:textColor="#4CAF50"
                     android:textSize="18sp"
@@ -83,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Tipo de cuenta"
+                android:text="@string/tipo_de_cuenta"
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -96,7 +96,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Cuenta de ahorros"
+                    android:text="@string/cuenta"
                     android:textAlignment="textEnd"
                     android:textColor="#000000"
                     android:textSize="16sp"
@@ -114,7 +114,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Eliminar"
+                    android:text="@string/btn_eliminar"
                     android:textColor="@color/my_primary_color"
                     android:textColorHighlight="#673AB7"
                     android:textColorLink="@color/my_primary_color"
@@ -127,7 +127,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Editar"
+                    android:text="@string/btn_editar"
                     android:textSize="16sp" />
             </LinearLayout>
         </LinearLayout>
